@@ -1,0 +1,77 @@
+.account-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #e6f7ff;
+  border: 2px solid #80c1ff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.account-container h2 {
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.account-form label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.account-form input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.update-button {
+  background-color: #0073e6;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-button:hover {
+  background-color: #005bb5;
+}
+
+.logout-button {
+  background-color: #005bb5;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.logout-button:hover {
+  background-color: #003f7f;
+}
+
+.order-item {
+  background: #ffffff;
+  border: 1px solid #b3e5fc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.order-items {
+  margin-top: 10px;
+}

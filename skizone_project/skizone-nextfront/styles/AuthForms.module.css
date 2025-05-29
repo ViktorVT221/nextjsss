@@ -1,0 +1,49 @@
+/* styles/AuthForms.module.css */
+.authContainer {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #e6f7ff; /* світло-синій фон */
+  border: 2px solid #80c1ff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.authTitle {
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.authForm label {
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+}
+
+.authForm input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.authButton {
+  background-color: #0073e6;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.authButton:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,23 @@
+.order-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffe4ec;
+  border: 2px solid #ffc2d1;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.order-container h2 {
+  color: #ff6290;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  background: #fff;
+  border: 1px solid #ffdce5;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}

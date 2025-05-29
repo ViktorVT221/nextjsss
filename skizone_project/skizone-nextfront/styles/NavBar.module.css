@@ -1,0 +1,58 @@
+/* styles/NavBar.module.css */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 10px 20px;
+  border-bottom: 3px solid #00b4f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fadeInAnimation {
+  animation: fadeIn 0.7s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.navlogo {
+  font-size: 1.9rem;
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks li a,
+.navlinks li button {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navlinks li a:hover,
+.navlinks li button:hover {
+  color: #cce6ff;
+  text-shadow: 0 0 5px rgba(204, 230, 255, 0.8);
+}
+
+.logoutbtn {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
